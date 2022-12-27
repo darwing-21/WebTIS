@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap'); 
 
 :root{
-    --main-color:#e38528;
+    --main-color:#ff9900;
 }
 *{
     font-family: 'Roboto', sans-serif;
@@ -21,7 +21,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background:#fcf2e8;
+    background:#f7fbff;
     padding-left: 30rem;
 }
 section{
@@ -84,35 +84,6 @@ header .redes_sociales a:hover{
     cursor: pointer;
     display: none;
 }
-/*.cursor-1{
-    position: absolute;
-    top:0; left: 0;
-    height: 1rem; width: 1rem;
-    background: var(--main-color);
-    pointer-events: none;
-    transform: translate(-50%,-50%);
-    border-radius: 50%;
-    z-index: 10000;
-}
-.cursor-1.active{
-    height: 7rem;
-    width: 7rem;
-    opacity: .3;
-}
-.cursor-2{
-    position: absolute;
-    top:0; left: 0;
-    height: 4rem; width: 4rem;
-    border: 0.1rem solid var(--main-color);
-    pointer-events: none;
-    transform: translate(-50%,-50%);
-    border-radius: 50%;
-    z-index: 10000;
-    transition: 0.3s linear;
-}
-.cursor-2.active{
-    display: none;
-}*/
 
 /*Inicio*/
 .inicio{
@@ -387,9 +358,6 @@ header .redes_sociales a:hover{
     header.active{
         left:0%;
     }
-    /*.cursor-1,.cursor-2{
-        display: none;
-    }*/
 }
 
 @media (max-width:450px){
